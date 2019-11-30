@@ -1,0 +1,31 @@
+/*
+=======================
+FLASH SALE RUBAH ORANGE
+=======================
+Buatlah sebuah algoritma atau pseudocode untuk kasus berikut:
+Toko 'RUBAH ORANGE' sedang mengadakan flash sale dengan ketentuan sebagai berikut:
+- Jumlah item yang dibeli lebih dari 9 maka akan mendapatkan 5 item lagi
+- Jumlah item yang dibeli lebih dari 7 maka akan mendapatkan 3 item lagi
+- Jumlah item yang dibeli lebih dari 5 maka akan mendapatkan 1 item lagi
+Tampilkan jumlah item yang didapatkan oleh pembeli.
+NOTED:
+Jika jumlah baju kurang dari 0 atau menerima input selain angka maka tampilkan 'Input Invalid'
+*/
+
+
+SET item WITH VALUE 9 //You can assign other value include 7 or 5
+
+IF item >= 0 AND item <= 5 THEN
+    DISPLAY 'Terimakasih telah membeli item di toko rubah orange'
+ELSE IF item >= 5 AND item < 7 THEN
+    DISPLAY 'Kamu mendapatkan 1 item lagi karena sudah membeli minimal 5 item'
+ELSE IF item >= 7 AND item < 9 THEN
+    DISPLAY 'Kamu mendapatkan 3 item lagi karena sudah membeli minimal 7 item'
+ELSE IF item >= 9 THEN 
+    DISPLAY 'Kamu mendapatkan 5 item lagi karena sudah membeli minimal 9 item'
+ELSE 
+    DISPLAY 'Input Invalid'
+ENDIF
+
+
+// write pseudocode/ algoritma here
